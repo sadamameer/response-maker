@@ -1,0 +1,26 @@
+{
+    "name": "laracodes/response-maker",
+    "description": "A Laravel Package for building nice, normalized and easy to consume Laravel REST API, giving you a great tool for API Logging and Management.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ameer Hamza",
+            "email": "trustful.ameer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laracodes\\ResponseMaker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laracodes\\ResponseMaker\\ResponseMakerServiceProvider"
+            ]
+        }
+    }
+}
